@@ -10,17 +10,17 @@ const routes = [
   {
     path: '/services',
     name: 'Services',
-    component: () => import('../views/Services.vue')
+    component: Services
   },
   {
     path: '/about',
     name: 'About',
-    component: () => import('../views/About.vue')
+    component: About
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import('../views/Contact.vue')
+    component: Contact
   }
 ]
 
