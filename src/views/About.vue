@@ -1,0 +1,33 @@
+<template>
+  <main>
+    <div class="container container-tr">
+      <h2 class="text-center my-4">About Us</h2>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="../assets/about.jpg" alt="about" class="img-fluid">
+        </div>
+        <div class="col-lg-7">
+          <p class="mt-4">
+            247 Property Care is Gas Safe Register provide all emergency and normal solutions required in Barnes, Clapham, Fulham, Kingston, New Malden, Putney, Raynes Park, Richmond, Wimbledon, Mitcham, Sutton, Morden, Wandsworth, Colliers Wood, Tooting, Cheam, Croydon, Carshalton, Wallington, Banstead, Chessington, Coulsdon, Purely, Norbury, Streatham, Balham, Earlsfield, Worceter Park, Stonelwigh, Leatherhed, Caterham, Thorntonheath, Norwood and many other cities of UK. We are having a team experts and professional engineers who serve best installation and repair services under desired standards for all type of boilers, commercial, plumbing, catering and electrical services.
+          </p>
+          <p>
+            We are always known for our committed and best customer support specially after sales services. We have already served many residential and commercial sectors.
+          </p>
+          <p>
+            We provide all installation and repair services at best prices. For any type of emergency and normal solutions, feel free to contact us anytime.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+</template>
+
+<script>
+  export default {
+    
+  }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
