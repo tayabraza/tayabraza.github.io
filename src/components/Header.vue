@@ -3,7 +3,7 @@
     <header>
       <div class="container">
         <div class="logo">
-          <a href="/247propertycare/">
+          <a href="/">
             <h4> 247 Property Care </h4>
             <!-- <img src="@/assets/logo.png" alt="logo" class="img-fluid"> -->
           </a>
@@ -13,10 +13,10 @@
               <i class="fa fa-bars"></i>
             </button>
             <div class="nav-bar d-md-block collapse" id="collapsibleNavbar">
-              <router-link to="/247propertycare/" @click="this.parent.classList.remove('show')">Home</router-link>
-              <router-link to="/247propertycare/services" @click="this.parent.classList.remove('show')">Services</router-link>
-              <router-link to="/247propertycare/about" @click="this.parent.classList.remove('show')">About</router-link>
-              <router-link to="/247propertycare/contact" @click="this.parent.classList.remove('show')">Contact</router-link>
+              <router-link to="/" @click="this.parent.classList.remove('show')">Home</router-link>
+              <router-link to="/services" @click="this.parent.classList.remove('show')">Services</router-link>
+              <router-link to="/about" @click="this.parent.classList.remove('show')">About</router-link>
+              <router-link to="/contact" @click="this.parent.classList.remove('show')">Contact</router-link>
             </div>
         </nav>
       </div>

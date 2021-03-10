@@ -3,22 +3,22 @@ import Home from '../views/Home.vue'
 
 const routes = [
   {
-    path: '/247propertycare/',
+    path: '/',
     name: 'Home',
     component: Home
   },
   {
-    path: '/247propertycare/services',
+    path: '/services',
     name: 'Services',
     component: () => import('../views/Services.vue')
   },
   {
-    path: '/247propertycare/about',
+    path: '/about',
     name: 'About',
     component: () => import('../views/About.vue')
   },
   {
-    path: '/247propertycare/contact',
+    path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue')
   }
